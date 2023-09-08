@@ -1,4 +1,4 @@
-const WORDS = ["Path", "System", "Passion", "legacy"];
+const WORDS = ["Path.", "System.", "Passion.", "legacy."];
 
 let count = 0;
 const SWAPPER = document.querySelector(".slide");
