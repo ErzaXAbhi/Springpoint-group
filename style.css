@@ -212,7 +212,7 @@ span {
 
   .hero-heading {
     margin-top: 1rem;
-    margin-left: 0rem;
+    margin-left: 2rem;
   }
 
   .hero-heading h2 {
@@ -225,7 +225,7 @@ span {
     flex-direction: column;
     row-gap: 2rem;
     margin-top: 2rem;
-    margin-left: 0rem;
+    margin-left: 2rem;
   }
 
   .hero-text h4 {
@@ -233,7 +233,7 @@ span {
   }
 
   .hero-text p {
-    width: 100%;
+    width: 80%;
     font-size: 1rem;
     margin-left: 0rem;
   }
@@ -243,6 +243,10 @@ span {
     row-gap: 1rem;
     margin-top: 2rem;
     margin-left: -10rem;
+  }
+
+  .footer-icon i {
+    font-size: 3rem;
   }
 
   .footer-link p {
