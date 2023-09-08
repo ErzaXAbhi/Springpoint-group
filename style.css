@@ -205,8 +205,8 @@ span {
   }
 
   .hero-img img {
-    width: 95%;
-    height: 40vh;
+    width: 90%;
+    height: 30vh;
   }
 
   .hero-heading {
@@ -241,7 +241,7 @@ span {
     flex-direction: column;
     row-gap: 1rem;
     margin-top: 2rem;
-    margin-left: -10rem;
+    margin-left: -15rem;
   }
 
   .footer-link p {
