@@ -212,7 +212,7 @@ span {
 
   .hero-heading {
     margin-top: 1rem;
-    margin-left: 3rem;
+    margin-left: 4rem;
   }
 
   .hero-heading h2 {
@@ -225,23 +225,26 @@ span {
     flex-direction: column;
     row-gap: 2rem;
     margin-top: 2rem;
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
   }
 
   .hero-text h4 {
     font-size: 1.5rem;
+    text-align: center;
+    margin-left: -4rem;
   }
 
   .hero-text p {
     width: 80%;
     font-size: 1rem;
     margin-left: 0rem;
+    text-align: center;
   }
 
   .hero-footer {
     flex-direction: column;
     row-gap: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-left: -2rem;
   }
 
