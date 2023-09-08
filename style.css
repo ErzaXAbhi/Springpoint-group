@@ -202,10 +202,11 @@ span {
     margin: 1rem;
     overflow-x: hidden;
     justify-content: center;
+    width: 100%;
   }
 
   .hero-img img {
-    width: 90%;
+    width: 100%;
     height: 30vh;
   }
 
@@ -241,7 +242,7 @@ span {
     flex-direction: column;
     row-gap: 1rem;
     margin-top: 2rem;
-    margin-left: -15rem;
+    margin-left: -10rem;
   }
 
   .footer-link p {
