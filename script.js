@@ -1,15 +1,23 @@
-const WORDS = ["Path", "System", "Passion", "legacy"];
+window.addEventListener("load", loader);
 
-let count = 0;
-const SWAPPER = document.querySelector(".slide");
-const SWAP = () => {
-  if (!document.startViewTransition) {
-    SWAPPER.innerText = WORDS[(count += 1) % WORDS.length];
-  } else {
-    document.startViewTransition(() => {
-      SWAPPER.innerText = WORDS[(count += 1) % WORDS.length];
+function loader() {
+  const TLLOAD = gsap.timeline({
+    default: {
+      ease: "power4",
+    },
+  });
+
+  TLLOAD.to(".images-container", { height: 400, duration: 1.3, delay: 0.4 })
+    .to(".bloc-txt", { height: "auto", duration: 0.6 }, "-=0.8")
+    .to(".bloc-txt h2", { y: 0 }, "-=0.6")
+    .to(".f2", { y: 0, duration: 0.6 })
+    .to(".flip-img1", { display: "none", duration: 0 })
+    .to(".f2", { y: "-100%" })
+    .to(".load-container", { autoAlpha: 0, duration: 0.8, delay: 0.7 })
+    .add(() => {
+      document.querySelector(".container").play();
+    }, "-=0.8")
+    .add(() => {
+      document.querySelector(".load-container").style.display = "none";
     });
-  }
-};
-
-setInterval(SWAP, 2000);
+}
