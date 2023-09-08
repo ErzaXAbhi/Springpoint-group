@@ -250,6 +250,16 @@ span {
     text-align: center;
   }
 
+  .hero-text p::first-letter {
+    font-size: 1rem;
+    float: left;
+    margin-left: 1rem;
+    background: #00563b;
+    color: #fff;
+    padding: 0 1rem;
+    border-radius: 0.25rem;
+  }
+
   .hero-footer {
     flex-direction: column;
     row-gap: 1rem;
