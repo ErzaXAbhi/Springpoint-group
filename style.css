@@ -208,6 +208,7 @@ span {
   .hero-img img {
     width: 90%;
     height: 30vh;
+    border-radius: 5px;
   }
 
   .hero-heading {
