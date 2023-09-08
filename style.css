@@ -197,6 +197,12 @@ span {
 }
 
 @media (max-width: 768px) {
+  body {
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
   .container {
     flex-direction: column;
     margin: 1rem;
