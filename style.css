@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 32px;
+}
+
+body {
+  background: #f5f5dc;
+  font-family: "Poppins", sans-serif;
+  color: #00563b;
+}
+
+.container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-img img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 95vh;
+  width: 100%;
+  border-radius: 0.5px;
+}
+
+.hero-heading {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 3rem;
+  margin-left: 0rem;
+}
+
+.hero-heading h2 {
+  font-size: 10rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #00563b;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12.6rem;
+  margin-left: 0rem;
+}
+
+.hero-text h4 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.hero-text p {
+  width: 60%;
+  font-size: 2rem;
+  margin-left: 25rem;
+  line-height: 1.1;
+}
+
+.hero-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+  margin-left: 0rem;
+}
+
+.footer-icon i {
+  font-size: 5rem;
+  color: #00563b;
+}
+
+.footer-link p {
+  font-size: 2rem;
+  margin-left: 38.5rem;
+  line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin: 1rem;
+    overflow-x: hidden;
+  }
+
+  .hero-img img {
+    width: 65%;
+    height: 25vh;
+  }
+
+  .hero-heading {
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+
+  .hero-heading h2 {
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+
+  .hero-text h4 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    width: 70%;
+    font-size: 1rem;
+    margin-left: 0rem;
+  }
+
+  .hero-footer {
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 2rem;
+    margin-left: -10rem;
+  }
+
+  .footer-link p {
+    margin-left: 0rem;
+    font-size: 1rem;
+  }
+}
