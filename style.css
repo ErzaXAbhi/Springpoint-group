@@ -220,7 +220,7 @@ span {
 
   .hero-heading {
     margin-top: 1rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
   }
 
   .hero-heading h2 {
@@ -233,7 +233,7 @@ span {
     flex-direction: column;
     row-gap: 2rem;
     margin-top: 2rem;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
     color: #00563b;
   }
 
@@ -254,7 +254,7 @@ span {
     flex-direction: column;
     row-gap: 1rem;
     margin-top: 1rem;
-    margin-left: -2rem;
+    margin-left: -0rem;
   }
 
   .footer-icon i {
