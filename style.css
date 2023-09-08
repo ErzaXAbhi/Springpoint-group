@@ -198,9 +198,10 @@ span {
 
 @media (max-width: 768px) {
   body {
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     overflow: hidden;
+    font-family: "Poppins", sans-serif;
   }
 
   .container {
@@ -212,7 +213,7 @@ span {
   }
 
   .hero-img img {
-    width: 90%;
+    width: 100%;
     height: 30vh;
     border-radius: 5px;
   }
@@ -233,6 +234,7 @@ span {
     row-gap: 2rem;
     margin-top: 2rem;
     margin-left: 1.5rem;
+    color: #00563b;
   }
 
   .hero-text h4 {
