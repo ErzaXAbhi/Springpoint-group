@@ -198,7 +198,7 @@ span {
 
 @media (max-width: 768px) {
   body {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     overflow: hidden;
     font-family: "Poppins", sans-serif;
